@@ -149,4 +149,15 @@ class Grammar2 {
         // val a: Int = obj; // 没有判断，这里编译器报错
     }
     // endregion
+
+    fun test() {
+        val arr = arrayOf(1, 2, 3)
+        val arr2 = listOf<String>()
+
+        for1@ for (i in arr.withIndex()) {
+            for2@ for (m in 0..10) {
+                break@for1
+            }
+        }
+    }
 }
