@@ -3,14 +3,14 @@ package com.github.raedev.kotlin.grammar;
 import org.junit.Test
 
 /**
- * 基础语法示例
+ * =========================
+ * 第一章：基础语法示例
+ * 下一章：[KtClass] 类和对象
+ * =========================
  * 1、包名跟Java一致，但kotlin源文件不需要相匹配的目录和包，源文件可以放在任何文件目录。文件名也不需要和类名一致。
  * 2、可以省略分号不写
- * @author RAE
- * @date 2022/05/30
- * Copyright (c) https://github.com/raedev All rights reserved.
  */
-class Grammar1 {
+class Grammar {
 
     // region 变量定义
 
